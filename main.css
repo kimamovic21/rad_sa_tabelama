@@ -1,0 +1,39 @@
+#zaposleni {/*5. stiliziramo*/
+    border: 3px solid black;
+    border-collapse: collapse;
+    /*6. spajanje granica u jednu*/ 
+   /* border-spacing: 5px ;*/
+}
+
+#zaposleni th {/*7. stiliziramo i otvaramo html fajl*/
+    border: 1px solid #fff;
+    padding: 3px;
+    font-size: 10pt;
+    background-color: #dc0000;
+    color: #fff;
+}
+
+#zaposleni tbody tr td {/*10. stiliziramo i otvaramo html fajl*/
+    border-bottom: 1px dashed black;
+}
+
+#zaposleni tfoot tr {/*12. stiliziramo*/
+    background-color: #eee;
+}
+
+#zaposleni tbody tr td:nth-child(1), 
+#zaposleni tbody tr td:nth-child(3) {  /*13. stiliziramo*/
+    text-align: right;
+}
+
+.text-right { /*14. stiliziramo i otvaramo html fajl*/
+    text-align: right;
+}
+
+#plata-zaglavlje { /*17. stiliziramo*/
+    vertical-align: bottom;
+}
+
+#suma-labela { /*18. stiliziramo*/
+   vertical-align: top;
+}

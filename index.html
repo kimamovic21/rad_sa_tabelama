@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rad sa tabelama</title>
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+    <table id="zaposleni"><!--1. Dodajemo table element-->
+        <thead><!--2. Dodajemo thead element-->
+            <tr><!--3. Dodajemo tr element-->
+                <th colspan="2">oktobar 2021. <!--4. Dodajemo th elemente i otvaramo css fajl-->
+                <th rowspan="2" id="plata-zaglavlje">Iznos plate:
+                    <!--16. dodajemo atribut rowspan i id i otvaramo css fajl-->
+            <tr>
+                <th>R. br.
+                <th>Ime i prezime
+         <tbody> <!--8. dodajemo tbody element-->
+             <tr>
+                <td>1.<!--9 dodajemo td element i otvaramo css fajl-->
+                <td>Amar
+                <td>800 €
+            <tr>
+                <td>2.
+                <td>Ahmed
+                <td>900 €
+             <tr>
+                <td>3.
+                <td>Amel
+                <td>1000 €
+             <tr>
+                <td>4.
+                <td>Amir
+                <td>1100 €
+        <tfoot><!--11. dodajemo tfoot element (ne mora da postoji u tabelama) i otvaramo css fajl-->
+            <tr>
+                <td colspan="2" rowspan="2" class="text-right" id="suma-labela">Suma:
+                    <!--15. dodajemo colspan i rowspan atribut-->
+                <td class="text-right">3800€
+            <tr>
+                <td class="text-right">4 zaposlena
+    </table>
+</body>
+</html>
